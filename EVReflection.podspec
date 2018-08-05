@@ -44,10 +44,9 @@ EOS
 
 # Extending EVReflection with mapping functions for CKRecord (CloudKit)
   s.subspec "CloudKit" do |ss|
-    ss.osx.deployment_target = '10.10'
     # CloudKit needs Watch OS version 3.0
     ss.ios.deployment_target = '8.0'
-    ss.osx.deployment_target = '10.11'
+    ss.osx.deployment_target = '10.10'
     ss.watchos.deployment_target = '3.0'
     ss.tvos.deployment_target = '9.0'
     ss.source_files  = "Source/CloudKit/*.swift"
